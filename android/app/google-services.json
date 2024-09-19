@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "782708013074",
+    "project_id": "fir-crud-e4bdf",
+    "storage_bucket": "fir-crud-e4bdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782708013074:android:d2a753bc316fc51853c0cb",
+        "android_client_info": {
+          "package_name": "com.manuinfotech.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782708013074-4veltd8ikd64v7gfj0ea00un26nd4uau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manuinfotech.firebase",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "782708013074-6j10oov7ofc4mnj8331a12i7i3jmd3mu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_wv8TyUq7XDvraMVOziaZ_j-9BHxedgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782708013074-6j10oov7ofc4mnj8331a12i7i3jmd3mu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "782708013074-i41v7s8es820sgbitf8apgjfg4ckt501.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.manuinfotech.firebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
