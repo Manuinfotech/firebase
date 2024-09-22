@@ -104,6 +104,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'user',
           path: '/user',
           builder: (context, params) => const UserWidget(),
+        ),
+        FFRoute(
+          name: 'Phone',
+          path: '/phone',
+          builder: (context, params) => const PhoneWidget(),
+        ),
+        FFRoute(
+          name: 'otp',
+          path: '/otp',
+          builder: (context, params) => const OtpWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       observers: [routeObserver],

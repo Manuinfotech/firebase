@@ -123,6 +123,8 @@ class _FormWidgetState extends State<FormWidget> with TickerProviderStateMixin {
           !anim.applyInitialState),
       this,
     );
+
+    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
   }
 
   @override
@@ -621,6 +623,8 @@ class _FormWidgetState extends State<FormWidget> with TickerProviderStateMixin {
                                   final selectedMedia =
                                       await selectMediaWithSourceBottomSheet(
                                     context: context,
+                                    maxWidth: 400.00,
+                                    maxHeight: 250.00,
                                     allowPhoto: true,
                                   );
                                   if (selectedMedia != null &&

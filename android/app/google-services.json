@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "782708013074",
+    "firebase_url": "https://fir-crud-e4bdf-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "fir-crud-e4bdf",
     "storage_bucket": "fir-crud-e4bdf.appspot.com"
   },
@@ -19,6 +20,14 @@
           "android_info": {
             "package_name": "com.manuinfotech.firebase",
             "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "782708013074-5j8m3v50cos3nlpm063un3eojmm7f1eg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manuinfotech.firebase",
+            "certificate_hash": "e5182ac1a6ec9a616931255f5d23a75deffd1fed"
           }
         },
         {
